@@ -7,7 +7,8 @@ First, clone this project
 ~$ git clone https://github.com/eunseong/koji-ssl-certificate.git
 ```
 Modify the [req_distinguished_name] section in `ssl.cnf` to fit you
-![스크린샷 2020-11-17 오후 3 25 17](https://user-images.githubusercontent.com/9551173/99354099-1a613000-28e9-11eb-8ad3-499626d13b2b.png)
+![스크린샷 2020-11-17 오후 3 25 17](https://user-images.githubusercontent.com/9551173/99354099-1a613000-28e9-11eb-8ad3-499626d13b2b.png) <br/>
+
 
 Next, follw the commands below to create the certificate of the root CA
 ```shell
@@ -23,8 +24,8 @@ We can use the script `gen_cert.sh` with argument(koji user name) to create ssl 
 ```shell
 ./gen_cert.sh ${USER}   #USER="eslee"
 ```
-![eslee](https://user-images.githubusercontent.com/9551173/99356756-0a981a80-28ee-11eb-8a48-c88ffe268ead.png)
-* 
+![eslee](https://user-images.githubusercontent.com/9551173/99356756-0a981a80-28ee-11eb-8a48-c88ffe268ead.png) <br/>
+
 
 Copy `koji` directory in `/etc/pki/`
 ```shell
