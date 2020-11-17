@@ -6,7 +6,7 @@ First, clone this project
 ~$ cd ~
 ~$ git clone https://github.com/eunseong/koji-ssl-certificate.git
 ```
-Modify the [req_distinguished_name] section in `ssl.cnf` to fit you
+Modify the [req_distinguished_name] section in `ssl.cnf` to fit you  <br/>
 ![스크린샷 2020-11-17 오후 3 25 17](https://user-images.githubusercontent.com/9551173/99354099-1a613000-28e9-11eb-8ad3-499626d13b2b.png) <br/>
 
 
