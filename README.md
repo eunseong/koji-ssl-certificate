@@ -32,7 +32,7 @@ Copy `koji` directory in `/etc/pki/`
 ~$ cp -rT ./koji /etc/pki/koji
 ```
 
-Setting the configs of koji client who uses CLI for koji request
+Copy certificates into ~/.koji for koji client for used it to authenticate with the koji-hub 
 ```shell
 useradd ${USER} && su ${USER}
 mkdir /home/${USER}/.koji
