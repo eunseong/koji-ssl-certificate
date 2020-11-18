@@ -32,7 +32,7 @@ Copy `koji` directory in `/etc/pki/`
 ~$ cp -rT ./koji /etc/pki/koji
 ```
 
-Copy certificates into ~/.koji for koji client for used it to authenticate with the koji-hub 
+Copy certificates into ~/.koji for koji client for using it to authenticate with the koji-hub 
 ```shell
 useradd ${USER} && su ${USER}
 mkdir /home/${USER}/.koji
@@ -40,5 +40,4 @@ cp /etc/pki/koji/{USER}.pem ~/.koji/client.crt
 cp /etc/pki/koji/koji_ca_cert.crt ~/.koji/clientca.crt
 cp /etc/pki/koji/koji_ca_cert.crt ~/.koji/serverca.crt
 ln -s /etc/koji.conf ~/.koji/config
-
 ```
